@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "hr@company.com",
+      "password": "password123",
+      "role": "hr",
+      "employeeId": 1
+    },
+    {
+      "id": "2",
+      "email": "employee@company.com",
+      "password": "password123",
+      "role": "employee",
+      "employeeId": 2
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "firstName": "Sarah",
+      "lastName": "Manager",
+      "email": "hr@company.com",
+      "department": "Human Resources",
+      "jobTitle": "HR Director",
+      "status": "Active",
+      "dateJoined": "2023-01-15"
+    },
+    {
+      "id": "2",
+      "firstName": "John",
+      "lastName": "Developer",
+      "email": "employee@company.com",
+      "department": "Engineering",
+      "jobTitle": "Frontend Engineer",
+      "status": "Active",
+      "dateJoined": "2026-08-01"
+    }
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "name": "Human Resources"
+    },
+    {
+      "id": "2",
+      "name": "Engineering"
+    },
+    {
+      "id": "3",
+      "name": "Marketing"
+    },
+    {
+      "id": "4",
+      "name": "Sales"
+    }
+  ]
+}
