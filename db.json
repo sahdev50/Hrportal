@@ -10,9 +10,16 @@
     {
       "id": "2",
       "email": "employee@company.com",
-      "password": "password123",
+      "password": "$2b$10$QY.sMRPpKNB/blLinpBeqej5naJQfFVwKLfalO9lzB7Ndm3lHVdBa",
       "role": "employee",
       "employeeId": 2
+    },
+    {
+      "id": "N43e0Ac41uI",
+      "email": "sahdevodedara2000@gmail.com",
+      "password": "$2b$10$QY.sMRPpKNB/blLinpBeqej5naJQfFVwKLfalO9lzB7Ndm3lHVdBa",
+      "role": "employee",
+      "employeeId": "-D-pNfhYBy0"
     }
   ],
   "employees": [
@@ -24,7 +31,8 @@
       "department": "Human Resources",
       "jobTitle": "HR Director",
       "status": "Active",
-      "dateJoined": "2023-01-15"
+      "dateJoined": "2023-01-15",
+      "avatar": "https://ui-avatars.com/api/?name=Sarah+Manager&background=7C3AED&color=fff"
     },
     {
       "id": "2",
@@ -34,7 +42,19 @@
       "department": "Engineering",
       "jobTitle": "Frontend Engineer",
       "status": "Active",
-      "dateJoined": "2026-08-01"
+      "dateJoined": "2026-08-01",
+      "avatar": "https://ui-avatars.com/api/?name=John+Developer&background=7C3AED&color=fff"
+    },
+    {
+      "id": "-D-pNfhYBy0",
+      "firstName": "Sahdev",
+      "lastName": "Odedara",
+      "email": "sahdevodedara2000@gmail.com",
+      "department": "Human Resources",
+      "jobTitle": "Full Stack Developer",
+      "status": "Active",
+      "dateJoined": "2026-10-21",
+      "avatar": "https://ui-avatars.com/api/?name=Sahdev+Odedara&background=7C3AED&color=fff"
     }
   ],
   "departments": [
@@ -54,5 +74,6 @@
       "id": "4",
       "name": "Sales"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
