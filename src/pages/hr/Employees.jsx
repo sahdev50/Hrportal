@@ -137,7 +137,7 @@ export default function Employees() {
         </div>
         <button
           onClick={() => openModal()}
-          className="btn-primary flex items-center shrink-0"
+          className="btn-primary flex items-center shrink-0 cursor-pointer"
         >
           <Plus size={20} className="mr-2" /> Add Employee
         </button>
@@ -220,13 +220,13 @@ export default function Employees() {
                     <td className="px-6 py-4 text-right space-x-2">
                       <button
                         onClick={() => openModal(emp)}
-                        className="p-2 text-text-secondary hover:text-primary transition-colors bg-background rounded-lg border border-border"
+                        className="p-2 text-text-secondary cursor-pointer hover:bg-violet-200 hover:text-primary transition-colors bg-background rounded-lg border border-border"
                       >
                         <Edit2 size={16} />
                       </button>
                       <button
                         onClick={() => handleDelete(emp.id)}
-                        className="p-2 text-text-secondary hover:text-error transition-colors bg-background rounded-lg border border-border"
+                        className="p-2 text-text-secondary cursor-pointer hover:bg-rose-200 hover:text-error transition-colors bg-background rounded-lg border border-border"
                       >
                         <Trash2 size={16} />
                       </button>

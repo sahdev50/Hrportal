@@ -79,5 +79,19 @@
       "name": "Sales"
     }
   ],
+  "leaveRequests": [
+    {
+      "id": "wwVN1zPsYEc",
+      "employeeId": "j0C7BHlG2eM",
+      "employeeName": "Sahdev Odedara",
+      "leaveType": "Sick",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-24",
+      "daysRequested": 3,
+      "reason": "Runny nose and bad headache",
+      "status": "Pending",
+      "appliedOn": "2026-10-21T17:25:28.259Z"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

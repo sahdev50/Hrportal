@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #7C3AED;
-  --color-primary-deep: #5B21B6;
-  --color-primary-light: #F3E8FF;
-  --color-background: #F8F7FC;
-  --color-card: #FFFFFF;
-  --color-text-main: #211B2E;
+  --color-primary: #7c3aed;
+  --color-primary-deep: #5b21b6;
+  --color-primary-light: #f3e8ff;
+  --color-background: #f8f7fc;
+  --color-card: #ffffff;
+  --color-text-main: #211b2e;
   --color-text-secondary: #777184;
-  --color-border: #EAE6F2;
-  --color-success: #16A34A;
-  --color-warning: #D97706;
-  --color-error: #DC2626;
+  --color-border: #eae6f2;
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-error: #dc2626;
 
   --radius-xl: 12px;
   --radius-2xl: 16px;
@@ -31,7 +31,7 @@
   .btn-primary {
     @apply bg-primary text-white px-4 py-2 rounded-xl font-medium transition-all duration-200 hover:bg-primary-deep focus:ring-4 focus:ring-primary-light active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed;
   }
-  
+
   .btn-secondary {
     @apply bg-white border border-border text-text-main px-4 py-2 rounded-xl font-medium transition-all duration-200 hover:bg-primary-light hover:text-primary-deep hover:border-primary-light focus:ring-4 focus:ring-primary-light active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed;
   }
@@ -43,4 +43,9 @@
   .card {
     @apply bg-card rounded-2xl shadow-card border border-border p-6;
   }
+}
+
+
+button{
+  cursor: pointer !important;
 }
