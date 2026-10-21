@@ -9,6 +9,7 @@ import './index.css';
 import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
 import DashboardLayout from './components/DashboardLayout';
+import Employees from './pages/hr/Employees';
 
 
 
@@ -36,7 +37,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
           <Route path="/hr" element={<ProtectedRoute allowedRole="hr"><DashboardLayout /></ProtectedRoute>}>
             <Route index element={<Navigate to="dashboard" replace />} />
-            <Route path="dashboard" element={<PlaceholderPage title="HR Empployee" />} />
+            <Route path="dashboard" element={<Employees />} />
             <Route path="leave" element={<PlaceholderPage title="HR Leave" />} />
           </Route>
 

@@ -3,7 +3,7 @@
     {
       "id": "1",
       "email": "hr@company.com",
-      "password": "password123",
+      "password": "$2b$10$QY.sMRPpKNB/blLinpBeqej5naJQfFVwKLfalO9lzB7Ndm3lHVdBa",
       "role": "hr",
       "employeeId": 1
     },
@@ -13,13 +13,6 @@
       "password": "$2b$10$QY.sMRPpKNB/blLinpBeqej5naJQfFVwKLfalO9lzB7Ndm3lHVdBa",
       "role": "employee",
       "employeeId": 2
-    },
-    {
-      "id": "N43e0Ac41uI",
-      "email": "sahdevodedara2000@gmail.com",
-      "password": "$2b$10$QY.sMRPpKNB/blLinpBeqej5naJQfFVwKLfalO9lzB7Ndm3lHVdBa",
-      "role": "employee",
-      "employeeId": "-D-pNfhYBy0"
     }
   ],
   "employees": [
@@ -44,17 +37,6 @@
       "status": "Active",
       "dateJoined": "2026-08-01",
       "avatar": "https://ui-avatars.com/api/?name=John+Developer&background=7C3AED&color=fff"
-    },
-    {
-      "id": "-D-pNfhYBy0",
-      "firstName": "Sahdev",
-      "lastName": "Odedara",
-      "email": "sahdevodedara2000@gmail.com",
-      "department": "Human Resources",
-      "jobTitle": "Full Stack Developer",
-      "status": "Active",
-      "dateJoined": "2026-10-21",
-      "avatar": "https://ui-avatars.com/api/?name=Sahdev+Odedara&background=7C3AED&color=fff"
     }
   ],
   "departments": [
