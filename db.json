@@ -13,13 +13,6 @@
       "password": "$2b$10$QY.sMRPpKNB/blLinpBeqej5naJQfFVwKLfalO9lzB7Ndm3lHVdBa",
       "role": "employee",
       "employeeId": 2
-    },
-    {
-      "id": "E-PmXs4w51w",
-      "email": "sahdevodedara2000@gmail.com",
-      "password": "$2b$10$2/b7hsOhANF4oq.fU5vFM.ikxeQNr65gCm3iOeFc1VTx33xDmVXy2",
-      "role": "employee",
-      "employeeId": "j0C7BHlG2eM"
     }
   ],
   "employees": [
@@ -46,19 +39,6 @@
       "avatar": "https://ui-avatars.com/api/?name=John+Morgon&background=7C3AED&color=fff",
       "phone": "",
       "address": ""
-    },
-    {
-      "id": "j0C7BHlG2eM",
-      "firstName": "Sahdev",
-      "lastName": "Odedara",
-      "email": "sahdevodedara2000@gmail.com",
-      "department": "Engineering",
-      "jobTitle": "Full Stack Developer",
-      "status": "Active",
-      "dateJoined": "2026-10-21",
-      "avatar": "https://ui-avatars.com/api/?name=Sahdev+Odedara&background=7C3AED&color=fff",
-      "phone": "",
-      "address": ""
     }
   ],
   "departments": [
@@ -79,19 +59,6 @@
       "name": "Sales"
     }
   ],
-  "leaveRequests": [
-    {
-      "id": "wwVN1zPsYEc",
-      "employeeId": "j0C7BHlG2eM",
-      "employeeName": "Sahdev Odedara",
-      "leaveType": "Sick",
-      "startDate": "2026-10-22",
-      "endDate": "2026-10-24",
-      "daysRequested": 3,
-      "reason": "Runny nose and bad headache",
-      "status": "Pending",
-      "appliedOn": "2026-10-21T17:25:28.259Z"
-    }
-  ],
+  "leaveRequests": [],
   "$schema": "./node_modules/json-server/schema.json"
 }
